@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 4</title>
+</head>
+
+<body background="./fondo/fondo2.png">
+    <center>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h1 style="color: orange;">Basketball Registration Form</h1>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Player Name <br>
+                    <input type="text " id="Fname " name="Fname" value="" size="30 " placeholder="First">
+
+                </td>
+                <td>
+                    <br>
+                    <input type="text " id="lname " name="lname" value="" size="30 " placeholder="Last ">
+                </td>
+            </tr>
+            <tr><br><br>
+                <table border="3" ">
+                        <tr>
+                            <td>
+                                Age <br>
+                                <input type="number " min="30 " max="120 " step="1 " id="n1 " name="age "
+                                 pattern="\d+ " size="30 ">
+                        </td>
+                        <td>
+                            <label for="email ">Email:</label> <br>
+                            <input type="email " id="email " pattern=".+@cecar.edu.co " size="30 " required>
+                        </td>
+                </tr>
+                </table>
+                <tr>
+                 <table >
+                  <tr>
+                    <td colspan="2 ">
+                        Address <br>
+                        <input type="text " id="lname " name="lname "  size="67 " placeholder="Street Address "><br><br>
+                        <input type="text " id="lname " name="lname " size="67 " placeholder="Street Address Line 2 "> <br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <input type="text " id="City " name="City "  size="30 " placeholder="City ">
+                </td>
+                <td>
+                    <input type="text " id="Region " name="Region "size="31 " placeholder="Region ">
+                </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text " id="City " name="City "  size="30 " placeholder="Postal / Zip Code ">
+                    </td> 
+                    <td>
+                        <input type="text " id="Region " name="Region "size="31 " placeholder="Country ">
+                    </td>
+                  </tr>
+                  <tr>
+                    <table border="3 " ">
+                    <tr>
+                        <td>
+                            Home Phone<br>
+                            <input type="tel" size="30 " placeholder="### ### ####">
+                        </td>
+                        <td>
+                            <label for="Cell phone">Cell Phone</label> <br>
+                            <input type="tel" id="tel" size="30" placeholder="### ### ####">
+                        </td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+        </tr>
+        </table>
+    </center>
+</body>
+
+</html>

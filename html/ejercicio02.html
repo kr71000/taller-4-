@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personl Details</legend>
+
+            <label for="">Salution</label><br>
+            <select id="--None--" name="--None--">
+              <option value="">--None--</option>
+              <option value="Mr">Mr</option>
+              <option value="Mrs">Mrs</option>
+              <option value="Ms">Ms</option>
+            </select><br><br>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value=""><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value=""><br><br> Gender:
+            <input type="radio" name="sexo"> Male
+            <input type="radio" name="sexo"> Female <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" pattern=".+@cecar.edu.co" size="30" required><br><br> Date of Birth:
+            <input type="date"><br><br> Address: <br>
+            <textarea name="message" cols="30" rows="3" maxlength="100"></textarea><br><br>
+
+
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 1</title>
+</head>
+
+<body>
+    <h1 style="color: orange;"> Land Of Boxer Order Form </h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="email" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Adrdress:
+                </td>
+                <td>
+                    <textarea name="message" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <td>
+                Postcode:
+            </td>
+            <td>
+                <input type="text" id="pin" name="pin" minlength="6" maxlength="8">
+            </td>
+        </table><br><br>
+        <table border="3">
+
+            <tr>
+                <th>
+                    Product
+                </th>
+                <th>
+                    Part Number
+                </th>
+                <th>
+                    Quanty
+                </th>
+                <th>
+                    Unit Price
+                </th>
+                <th>
+                    Subtotal
+                </th>
+            </tr>
+            <tr>
+                <td>EconoBox</td>
+                <td>LB100</td>
+                <td>
+                    <input type="text" id="pin" name="pin" minlength="1" maxlength="3">
+                </td>
+                <td>R5</td>
+                <td><input type="text" id="pin" name="pin" minlength="1" maxlength="3"></td>
+
+            </tr>
+            <tr>
+                <td>Standard Box</td>
+                <td>LB200</td>
+                <td>
+                    <input type="text" id="pin" name="pin" minlength="1" maxlength="3">
+                </td>
+                <td>R10</td>
+                <td><input type="text" id="pin" name="pin" minlength="1" maxlength="3"></td>
+            </tr>
+            <tr>
+                <td>Premium Box/TD></td>
+                <td>LB300</td>
+                <td>
+                    <input type="text" id="pin" name="pin" minlength="1" maxlength="3">
+                </td>
+                <td>R15</td>
+                <td><input type="text" id="pin" name="pin" minlength="1" maxlength="3"></td>
+            </tr>
+            <tr>
+                <td>Deluxe Box/TD> </td>
+                <td>LB400</td>
+                <td>
+                    <input type="text" id="pin" name="pin" minlength="1" maxlength="3">
+                </td>
+                <td>R20</td>
+                <td><input type="text" id="pin" name="pin" minlength="1" maxlength="3"></td>
+            </tr>
+            <tr>
+                <td>Super Deluxe Box/TD> </td>
+                <td>LB100</td>
+                <td>
+                    <input type="text" id="pin" name="pin" minlength="1" maxlength="3">
+                </td>
+                <td>R30</td>
+                <td><input type="text" id="pin" name="pin" minlength="1" maxlength="3"></td>
+            </tr>
+            <tr>
+
+                <td colspan="3">
+                </td>
+                <td colspan="2"> total:
+                    <input type="text" id="pin" name="pin" minlength="1" maxlength="3"></td>
+                </td>
+
+            </tr>
+        </table><br><br>
+
+        <h3>Credit Card Details</h3>
+        <table>
+            <tr>
+                <td>
+                    Card Type: <br>
+                    <input type="radio" id="Mastercard" name="Card_Type" value="Mastercard">
+                    <label for="mastercard">Mastercard</label><br><br>
+                    <input type="radio" id="Visa" name="Card_Type" value="Visa">
+                    <label for="Visa">Visa</label><br><br>
+                    <input type="radio" id="AmericanExpress" name="Card_Type" value="AmericanExpress">
+                    <label for="AmericanExpress">American Express</label><br><br>
+                    <input type="radio" id="DinnerClub" name="Card_Type" value="DinnerClub">
+                    <label for="DinnerClub">Dinner Club</label><br><br>
+                </td>
+                <td>
+                    <label for="quantity">Card Number:</label>
+                    <input type="number" id="quantity" name="quantity"><br> <br> Expire Date
+                    <input type="month" name="" id="">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <strong> Delivery Address: </strong>
+                </td>
+                <td>
+                    <textarea name="message" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+
+        </table> <br>
+
+        <input type="submit" value="Send Order">
+        <input type="reset" value="Clear form">
+    </form>
+</body>
+
+</html>
